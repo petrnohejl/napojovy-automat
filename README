@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+Nápojový automat
+(c) 2009 Petr Nohejl
+
+Nápojový automat je model automatu, který simuluje reálné automaty na nápoje,
+používané v praxi. Program je ukázkovým (výukovým) příkladem správného
+objektového návrhu v OOP. Automat umožňuje nákup různých typů nápojů v různých
+cenách a různém počtu. Platba se provádí po objednávce pomocí mincí v různých
+nominálních hodnotách. Automat v případě zaplacení vyšší částky vrací přeplatek.
+Pokud automat nemůže vrátit přeplatek, objednávka je stornována a peníze vráceny
+zákazníkovi. Automat umožňuje kdykoliv stornovat objednávku.
+
+--------------------------------------------------------------------------------
+
+Instalace:
+
+Nápojový automat je konzolová aplikace (spouští se v příkazovém řádku) a je
+napsána v jazyce Java. Pro její spuštění je třeba mít nainstalován interpret
+jazyka Java, který lze stáhnout na adrese: www.java.com.
+
+--------------------------------------------------------------------------------
+
+Ovládání: 
+
+javac Mince.java Napoj.java Automat.java Main.java - přeloží celý projekt
+    
+java Main - spustí program (dále se řiďte instrukcemi na obrazovce)
+
+--------------------------------------------------------------------------------
